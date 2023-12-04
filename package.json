@@ -1,0 +1,33 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "\"Browser based game\"",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvgeniiPa/Ntlg-Homework-NPM.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Evgenii Pasechnickov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EvgeniiPa/Ntlg-Homework-NPM/issues"
+  },
+  "homepage": "https://github.com/EvgeniiPa/Ntlg-Homework-NPM#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.23.4",
+    "@babel/core": "^7.23.5",
+    "@babel/preset-env": "^7.23.5",
+    "eslint": "^8.55.0"
+  },
+  "dependencies": {
+    "core-js": "^3.33.3"
+  }
+}
